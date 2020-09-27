@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import styled from "@emotion/styled";
+import Form from "./components/Form";
 
 const Container = styled.div`
   max-width: 600px;
@@ -10,13 +11,17 @@ const Container = styled.div`
 
 const FormContainer = styled.div`
   background-color: #fff;
+  padding: 3rem;
+
 `;
 
 function App() {
   return (
     <Container>
-      <Header title="Tiulo" />
-      <FormContainer></FormContainer>
+      <Header title="Quotes" />
+      <FormContainer>
+        <Form />
+      </FormContainer>
     </Container>
   );
 }
