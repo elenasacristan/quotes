@@ -1,0 +1,18 @@
+npm i @emotion/styled @emotion/core
+
+import styled from 'emotion/styled'
+
+then//////
+
+const ContenedorHeader = styled.header`
+    background-color: #22222;
+    ....
+    ....
+`;
+
+
+inside the component:
+
+<ContenedorHeader>
+    <h1>Title</h1>
+</ContendorHeader>
